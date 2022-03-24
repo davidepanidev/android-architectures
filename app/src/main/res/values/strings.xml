@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Android Architectures</string>
-    
+
     <!-- Main Activity -->
     <string name="main_view_binding_button">View Binding</string>
+    <string name="viewbinding_fragment_handler_text">This is TestViewBindingHandlerFragment</string>
 </resources>
