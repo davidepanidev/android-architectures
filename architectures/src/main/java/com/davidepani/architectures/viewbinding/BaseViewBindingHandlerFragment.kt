@@ -20,7 +20,7 @@ abstract class BaseViewBindingHandlerFragment : Fragment() {
         if (_binding is T) {
             return _binding as T
         } else {
-            throw RuntimeException("ViewBinding must be initialized using provideViewBinding()")
+            throw RuntimeException("ViewBinding must be initialized using inflateViewBinding()")
         }
     }
 
@@ -31,7 +31,7 @@ abstract class BaseViewBindingHandlerFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         _binding = inflateViewBinding(inflater = inflater, container = container)
-        return _binding?.root ?: throw RuntimeException("ViewBinding must be provided using provideViewBinding()")
+        return _binding?.root ?: throw RuntimeException("ViewBinding must be provided using inflateViewBinding()")
     }
 
     override fun onDestroyView() {
