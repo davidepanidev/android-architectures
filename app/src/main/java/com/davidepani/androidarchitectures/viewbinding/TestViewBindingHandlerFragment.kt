@@ -12,7 +12,7 @@ class TestViewBindingHandlerFragment : BaseViewBindingHandlerFragment() {
     val binding: FragmentTestViewBindingHandlerBinding get() = requireViewBinding()
 
 
-    override fun provideViewBinding(inflater: LayoutInflater, container: ViewGroup?): ViewBinding {
+    override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?): ViewBinding {
         return FragmentTestViewBindingHandlerBinding.inflate(inflater, container, false)
     }
 

@@ -14,7 +14,8 @@ abstract class BaseViewBindingHandlerFragment : Fragment() {
         private set
 
 
-    protected abstract fun provideViewBinding(inflater: LayoutInflater, container: ViewGroup?): ViewBinding
+    protected abstract fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?): ViewBinding
+
     protected inline fun <reified T: ViewBinding> requireViewBinding(): T {
         if (_binding is T) {
             return _binding as T
@@ -23,12 +24,13 @@ abstract class BaseViewBindingHandlerFragment : Fragment() {
         }
     }
 
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = provideViewBinding(inflater = inflater, container = container)
+        _binding = inflateViewBinding(inflater = inflater, container = container)
         return _binding?.root ?: throw RuntimeException("ViewBinding must be provided using provideViewBinding()")
     }
 
