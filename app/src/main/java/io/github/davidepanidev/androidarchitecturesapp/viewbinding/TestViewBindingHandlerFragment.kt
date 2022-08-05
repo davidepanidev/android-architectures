@@ -1,18 +1,18 @@
-package com.davidepani.androidarchitectures.viewbinding
+package io.github.davidepanidev.androidarchitecturesapp.viewbinding
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.viewbinding.ViewBinding
-import com.davidepani.androidarchitectures.R
-import com.davidepani.androidarchitectures.databinding.FragmentTestViewBindingHandlerBinding
-import com.davidepani.architectures.viewbinding.BaseViewBindingHandlerFragment
+import io.github.davidepanidev.androidarchitectures.viewbinding.BaseViewBindingHandlerFragment
+import io.github.davidepanidev.androidarchitecturesapp.R
+import io.github.davidepanidev.androidarchitecturesapp.databinding.FragmentTestViewBindingHandlerBinding
 
 
 class TestViewBindingHandlerFragment : BaseViewBindingHandlerFragment() {
 
-    val binding: FragmentTestViewBindingHandlerBinding get() = requireViewBinding()
+    private val binding: FragmentTestViewBindingHandlerBinding get() = requireViewBinding()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

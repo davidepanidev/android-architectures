@@ -6,8 +6,8 @@ plugins {
 }
 
 ext {
-    material_version = "1.5.0"
-    kotlin_core_version = "1.7.0"
+    material_version = "1.6.1"
+    kotlin_core_version = "1.8.0"
 }
 
 task clean(type: Delete) {

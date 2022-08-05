@@ -27,6 +27,7 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+        allWarningsAsErrors = true
     }
 
     buildFeatures {
@@ -54,9 +55,9 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.github.davide-pani'
+                groupId = 'io.github.davidepanidev'
                 artifactId = 'android-architectures'
-                version = '1.0'
+                version = '0.1'
             }
         }
     }

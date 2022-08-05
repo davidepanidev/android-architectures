@@ -1,4 +1,4 @@
-package com.davidepani.architectures
+package io.github.davidepanidev.androidarchitectures
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
@@ -17,6 +17,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.davidepani.architectures.test", appContext.packageName)
+        assertEquals("io.github.davidepanidev.androidarchitectures.test", appContext.packageName)
     }
 }

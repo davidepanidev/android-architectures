@@ -1,8 +1,8 @@
-package com.davidepani.androidarchitectures.viewbinding
+package io.github.davidepanidev.androidarchitecturesapp.viewbinding
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.davidepani.androidarchitectures.databinding.ActivityTestViewBindingHandlerBinding
+import io.github.davidepanidev.androidarchitecturesapp.databinding.ActivityTestViewBindingHandlerBinding
 
 class TestViewBindingHandlerActivity : AppCompatActivity() {
 

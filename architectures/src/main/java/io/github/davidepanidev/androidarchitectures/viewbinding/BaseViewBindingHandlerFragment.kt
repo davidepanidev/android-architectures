@@ -1,4 +1,4 @@
-package com.davidepani.architectures.viewbinding
+package io.github.davidepanidev.androidarchitectures.viewbinding
 
 import android.os.Bundle
 import android.view.LayoutInflater

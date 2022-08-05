@@ -1,4 +1,4 @@
-package com.davidepani.architectures
+package io.github.davidepanidev.androidarchitectures
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
