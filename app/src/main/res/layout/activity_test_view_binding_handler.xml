@@ -9,6 +9,6 @@
         android:id="@+id/fragmentContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="io.github.davidepanidev.androidarchitecturesapp.viewbinding.TestViewBindingHandlerFragment" />
+        android:name="com.github.davidepanidev.androidarchitectures.viewbinding.TestViewBindingHandlerFragment" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
