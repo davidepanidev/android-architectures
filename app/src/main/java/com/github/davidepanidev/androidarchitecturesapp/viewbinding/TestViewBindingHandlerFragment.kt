@@ -1,12 +1,13 @@
-package com.github.davidepanidev.androidarchitectures.viewbinding
+package com.github.davidepanidev.androidarchitecturesapp.viewbinding
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.viewbinding.ViewBinding
-import com.github.davidepanidev.androidarchitectures.R
-import com.github.davidepanidev.androidarchitectures.databinding.FragmentTestViewBindingHandlerBinding
+import com.github.davidepanidev.androidarchitectures.viewbinding.BaseViewBindingHandlerFragment
+import com.github.davidepanidev.androidarchitecturesapp.R
+import com.github.davidepanidev.androidarchitecturesapp.databinding.FragmentTestViewBindingHandlerBinding
 
 
 class TestViewBindingHandlerFragment : BaseViewBindingHandlerFragment() {

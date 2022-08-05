@@ -1,4 +1,4 @@
-package com.github.davidepanidev.androidarchitectures
+package com.github.davidepanidev.androidarchitecturesapp
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry

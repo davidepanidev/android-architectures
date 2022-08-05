@@ -1,10 +1,10 @@
-package com.github.davidepanidev.androidarchitectures
+package com.github.davidepanidev.androidarchitecturesapp
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.github.davidepanidev.androidarchitectures.databinding.ActivityMainBinding
-import com.github.davidepanidev.androidarchitectures.viewbinding.TestViewBindingHandlerActivity
+import com.github.davidepanidev.androidarchitecturesapp.databinding.ActivityMainBinding
+import com.github.davidepanidev.androidarchitecturesapp.viewbinding.TestViewBindingHandlerActivity
 
 
 class MainActivity : AppCompatActivity() {
